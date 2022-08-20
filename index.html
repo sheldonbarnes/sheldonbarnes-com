@@ -58,10 +58,15 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Sheldon for CCS</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="btn btn-success" href="/index/#restaurants" role="button">Favorite Restaurants</a>
+      <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-    
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          2
+          <span class="visually-hidden"></span>
+        </span>
+      </button>    
+
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -83,6 +88,7 @@
           </li>
         </ul>
       </div>
+
     </nav>
 
 <main role="main" class="container">
@@ -92,7 +98,8 @@
       <img src="./images/sheldonbarnes-current-ad-1.gif" class="rounded" alt="Sheldon Barnes for Carmel Clay School Board - District 1">
     </div>
     <p class="lead">"Labor for learning before you grow old. For learning is better than silver or gold. Silver and gold will vanish away but a good education will never decay!"</p>  
-    <a id="about-sheldon-button" class="btn btn-primary" href="/about-sheldon" role="button">Learn more about Sheldon</a>
+    <a id="about-sheldon-button" class="btn btn-primary" href="/about-sheldon" role="button">Learn more about Sheldon</a> <br>
+    <a href="#restaurants">My favorite restaurants</a>
 
   </div>
 
@@ -211,13 +218,17 @@
         <td colspan="2">Army Veteran</td>
       </tr>      
       <tr>
-        <th scope="row">Businesses</th>
+        <th scope="row"><a id="restaurants">Businesses</a></th>
         <td colspan="2">Barnes Residential LLC and Carmel Realty LLC</td>
       </tr>
       <tr>
         <th scope="row">Hobbies</th>
         <td colspan="2">Running, cycling, boxing, working out at LA Fitness, and riding my motorcycle</td>
       </tr>
+      <tr>
+        <th scope="row">Favorite Restaurants</th>
+        <td colspan="2"><a href="https://www.texasroadhouse.com/locations/650-carmelin">Texas Roadhouse</a>, <a href="https://www.buffalowildwings.com/locations/us/in/carmel/2510-east-146th-street/sports-bar-474">Buffalo Wild Wings</a>, <a href="https://www.olivegarden.com/locations/in/carmel/carmel-north-michigan-road/4455">Olive Garden</a>, <a href="https://jamaicanreggaegrill.com/">Jamaican Reggae Grill</a>, <a href="https://indianindy.com/amber-carmel/">Amber Indian Restaurant</a>, <a href="https://www.kotojapanesesteakhousein.com/">Koto Japanese Steak House</a></td>
+      </tr>      
     </tbody>
   </table>
 
@@ -320,7 +331,7 @@
         gtag('js', new Date());
       
         gtag('config', 'G-EV8SS4PR5L');
-      </script>    
+      </script>      
       
   </body>
 </html>
