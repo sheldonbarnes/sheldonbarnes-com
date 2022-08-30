@@ -11,6 +11,18 @@
     <lastmod>2022-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="https://www.sheldonbarnes.com/es"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="hi"
+               href="https://www.sheldonbarnes.com/hi"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="zh-hant"
+               href="https://www.sheldonbarnes.com/zh-hant"/>    
 </url>
 <url>
     <loc>https://www.sheldonbarnes.com/es</loc>
