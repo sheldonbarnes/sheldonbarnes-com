@@ -111,16 +111,4 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
 </url>
-<url>
-    <loc>https://www.twitter.com/yesteamcarmel</loc>
-    <lastmod>2022-08-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-</url>
-<url>
-    <loc>https://www.facebook.com/sheldonbarnesccs</loc>
-    <lastmod>2022-08-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-</url>
 </urlset>
