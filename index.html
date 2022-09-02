@@ -5,10 +5,7 @@
     <script> 
       var usrlang = navigator.language 
               || navigator.userLanguage;
-      document.write(
-          "User's preferred language is: "
-          + usrlang);
-
+              
           if (usrlang.substring(0,2) == 'es') {
             document.write('Redirecting to Spanish version');
             window.location.href = "https://www.sheldonbarnes.com/es";
