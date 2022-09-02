@@ -2,7 +2,26 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script> 
+      var usrlang = navigator.language 
+              || navigator.userLanguage;
+      document.write(
+          "User's preferred language is: "
+          + usrlang);
 
+          if (usrlang.substring(0,2) == 'es') {
+            document.write('Redirecting to Spanish version');
+            window.location.href = "https://www.sheldonbarnes.com/es";
+          }
+          else if (usrlang.substring(0,2) == 'hi') {
+            document.write('Redirecting to Hindi version');
+            window.location.href = "https://www.sheldonbarnes.com/hi";
+          }
+          else if (usrlang.substring(0,2) == 'zh') {
+            document.write('Redirecting to Chinese version');
+            window.location.href = "https://www.sheldonbarnes.com/zh-hant";
+          }
+  </script> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Sheldon Barnes is running for Carmel Clay School Board - District 1 with a platform that includes academic excellence, transparency, and One Team. ">
