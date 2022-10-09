@@ -6,6 +6,7 @@ body {
   text-align: center;
 }
 
+
 .h1,h1 {
   padding: 30px 30px 30px 30px;
 }
@@ -67,7 +68,9 @@ body, html {
   background-size: cover;
   position: relative;
 }
-
+h2 {
+  color: white;
+}
 .col-md-4 {
   padding-block: 10px;
 }
