@@ -188,3 +188,51 @@ blockquote.blockstyle.border-color-yellow {
 blockquote.blockstyle.border-color-yellow>span.triangle:before {
  color: #fdb714
 }
+
+@media (max-width:480px){
+  video {
+    width: 100%;
+  }
+}
+
+@media (max-width:960px){
+  video {
+    width: 100%;
+  }
+
+}
+
+@media (min-width:1025px){
+  video {
+    width: 100%;
+  }
+
+}
+
+@media (max-width:1280px){
+  video {
+    width: 100%;
+  }
+}
+
+
+element.style {
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.sheldon-template {
+  padding: 3rem 1.5rem;
+}
