@@ -19,6 +19,18 @@
     <priority>1.0</priority>
 </url>
 <url>
+    <loc>https://www.sheldonbarnes.com/videos</loc>
+    <lastmod>2022-10-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.sheldonbarnes.com/conversations-with-candidates</loc>
+    <lastmod>2022-10-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
     <loc>https://www.sheldonbarnes.com/videos-question-1</loc>
     <lastmod>2022-10-04</lastmod>
     <changefreq>daily</changefreq>
